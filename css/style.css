@@ -42,14 +42,16 @@ html {
 	text-transform: capitalize;
 	letter-spacing: 1px;
 }
-.First-content p {
+.First-content p ,
+.dream-content p{
 	font-weight: normal;
 	text-align: justify;
 	font-size: 15px;
 	line-height: 26px;
 	width: 85%;
 }
-.btn-custom {
+.btn-custom ,
+.btn-custom-2{
 	padding: 5px 20px;
 	background-color: #FB6B58;
 	border-radius: 0;
@@ -59,7 +61,8 @@ html {
     font-size: 16px;
     margin-top: 8px;
 }
-.btn-custom:hover{
+.btn-custom:hover ,
+.btn-custom-2:hover{
     background-color: transparent;
     border: 1px solid #FB6B58;
     color: #FB6B58;
@@ -70,3 +73,30 @@ html {
 	padding-top: 30px;
 }
 /* header part end */
+/* dream-part design start */
+.dream-whole-part{
+    padding-top: 70px;
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 65px;
+}
+.dream-image img{
+    width: 340px;
+}
+.dream-content h3 {
+	font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+.dream-content h4 {
+	font-weight: 500;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+
+
+
+/* dream-part design end */
