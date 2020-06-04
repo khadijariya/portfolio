@@ -8,12 +8,65 @@ html {
     scroll-behavior: smooth;
 }
 
+/* header part start */
+.header-part {
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.First-content {
+	padding: 30px 5px 30px 15px;
+}
 
+.First-content h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
 
+.First-content h3 {
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 
+.color {
+    color: orange;
+}
+.First-content h4 {
+	font-weight: 500;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.First-content p {
+	font-weight: normal;
+	text-align: justify;
+	font-size: 15px;
+	line-height: 26px;
+	width: 85%;
+}
+.btn-custom {
+	padding: 5px 20px;
+	background-color: #FB6B58;
+	border-radius: 0;
+	color: #ffffff;
+	text-transform: uppercase;
+    transition: 0.5s all ease;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.btn-custom:hover{
+    background-color: transparent;
+    border: 1px solid #FB6B58;
+    color: #FB6B58;
+}
 
-
-
-
-
+.First-image img {
+	width: 450px;
+	padding-top: 30px;
+}
+/* header part end */
